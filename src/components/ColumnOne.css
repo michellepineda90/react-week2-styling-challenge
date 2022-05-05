@@ -1,0 +1,138 @@
+/* width: 172px
+height: 768 px */
+.navBar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* width: 17%;
+    height: 100%; */
+    width: 172px;
+    height: 768px;
+    background-color: #343951;
+    font-size: 10px;
+    color: #BEC0C8;
+}
+
+.colorGradientOne {
+    position: absolute;
+    top: 36px;
+    background: linear-gradient(90deg, rgba(255,159,0,1) 19%, rgba(255,104,96,1) 35%, rgba(104,158,248,1) 100%);
+    border-radius: 5px;
+    width: 74px;
+    height: 21px;
+    margin-top: 36px;
+    margin-left: 32px;
+}
+
+.sections {
+    position: absolute;
+    top: 125px;
+}
+
+.section {
+    display: flex;
+}
+
+.sectionItem {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.lineOne {
+    border: 1px solid #464C61;
+    width: 172px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.moreOptionsSection {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    top: 173px;
+    left: 28px;
+    background-color: #464C61;
+    padding: 10px;
+    border-radius: 9px;
+    width: 67.4%;
+}
+
+.arrowDown {
+    position: absolute;
+    top: 268px;
+    width: 0; 
+    height: 0; 
+    margin-left: 25%;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #464C61;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.createNewSection {
+    position: absolute;
+    top: 711px;
+    left: 27px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pointer {
+    background-color: #343951;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    width: 7px;
+    height: 44px;
+}
+
+.selected {
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+}   
+
+.navBarBtn {
+    margin-left: 14.5px;
+    border-color: #858A9D;
+    background-color: #343951;
+}
+
+.options {
+    margin-left: 7px;
+    border-color: #FFFFFF;
+    background-color: #464C61;
+}
+
+.option {
+    display: flex;
+    gap: 5px;
+}
+
+.plus {
+    width: 21px;
+    height: 21px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FFB233;
+    color: #FFFFFF;
+}
+
+.selectedButton {
+    border: 1px solid #FFFFFF;
+    background-color: #343951;
+}
+
+.selectedLabel {
+    color: #FFFFFF;
+}

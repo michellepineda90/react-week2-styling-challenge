@@ -1,0 +1,57 @@
+.rectangleFour {
+    margin-left: 1.5%;
+    background-color: #F5F6FC;
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: 55%; */
+    width: 562px;
+    height: 768 px;
+    border: 2px solid red;
+}
+
+.search {
+    display: flex;
+    margin-left: 16px;
+    width: 527px;
+    height: 29px;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.searchBtn {
+    border-color: #BCBECA;
+    background-color: #FFFFFF;
+    margin-left: 12px;
+}
+
+.searchInput {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: #BCBECA;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.cardHeader .viewAll {
+    font-size: 12px;
+}
+
+.detail {
+    font-size: 8px;
+}
+
+.rectangleFive {
+    background-color: #F5F6FC;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recentlyUsedProjects {
+    display: flex;
+}
+
+.shareWithMeFiles {
+    display: flex;
+}
