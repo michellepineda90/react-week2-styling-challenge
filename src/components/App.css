@@ -7,17 +7,15 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  width: 1027px;
-  height: 768px;
-}
-
 .App {
   background-color: #FFFFFF;
   display: flex;
   flex-direction: row;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  width: 1027px;
+  height: 768px;
 }
 
 .headerTitle {
@@ -46,4 +44,12 @@ body {
   height: 30px;
   border: none;
   border-radius: 7px;
+}
+
+.circle {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #BEC0C8;
+  border-radius: 50%;
+  background-color: #FFFFFF;
 }

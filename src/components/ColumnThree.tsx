@@ -12,6 +12,7 @@ function ColumnThree() {
                 <p>Name</p>
                 <div className='profilePic'></div>
             </div>
+            <hr></hr>
             <div className='rectangleSeven storageSection'>
                 <p className='headerTitle'>Storage</p>
                 <div>Chart
