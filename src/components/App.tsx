@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import ColumnOne from './ColumnOne';
+import NavBar from './NavBar';
 import ColumnTwo from './ColumnTwo';
 import ColumnThree from './ColumnThree';
 
 function App() {
   return (
     <div className="App">
-      <ColumnOne />
+      <NavBar />
       <ColumnTwo />
       <ColumnThree />
       {/* <header className="App-header">

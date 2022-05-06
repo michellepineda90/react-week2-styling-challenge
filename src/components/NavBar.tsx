@@ -1,47 +1,47 @@
 import React from 'react';
-import './ColumnOne.css';
+import './NavBar.css';
 
-function ColumnOne() {
+function NavBar() {
     return (
         <div className='navBar'>
             <div className='colorGradientOne'></div>
             <div className='sections'>
-                <div className='section home'>
+                <div className='home sctn'>
                     <div className='pointer selected'></div>
                     <div className='sectionItem'>
                         <input type='button' className='selectedButton navBarBtn btn' id='home' name='home'/>
                         <label htmlFor="home" className='selectedLabel label'>Home</label>
                     </div>
                 </div>
-                <div className='section myFiles'>
+                <div className='myFiles sctn'>
                     <div className='pointer'></div>
                     <div className='sectionItem'>
                         <input type='button' className='navBarBtn btn' id='myFiles' name='myFiles'/>
                         <label htmlFor="myFiles" className='label'>My Files</label>
                     </div>
                 </div>
-                <div className='section recentFiles'>
+                <div className='recentFiles sctn'>
                     <div className='pointer'></div>
                     <div className='sectionItem'>
                         <input type='button' className='navBarBtn btn' id='recentFiles' name='recentFiles'/>
                         <label htmlFor="recentFiles" className='label'>Recent Files</label>
                     </div>
                 </div>
-                <div className='section sharedFiles'>
+                <div className='sharedFiles sctn'>
                     <div className='pointer'></div>
                     <div className='sectionItem'>
                         <input type='button' className='navBarBtn btn' id='sharedFiles' name='sharedFiles'/>
                         <label htmlFor="sharedFiles" className='label'>Shared Files</label>
                     </div>
                 </div>
-                <div className='section fileRequest'>
+                <div className='fileRequest sctn'>
                     <div className='pointer'></div>
                     <div className='sectionItem'>
                         <input type='button' className='navBarBtn btn' id= 'fileRequest' name= 'fileRequest'/>
                         <label htmlFor= "fileRequest" className='label'>File Request</label>
                     </div>
                 </div>
-                <div className='section trash'>
+                <div className='trash sctn'>
                     <div className='pointer'></div>
                     <div className='sectionItem'>
                         <input type='button' className='navBarBtn btn' id='trash' name='trash'/>
@@ -80,4 +80,4 @@ function ColumnOne() {
     );
   }
   
-  export default ColumnOne;
+  export default NavBar;

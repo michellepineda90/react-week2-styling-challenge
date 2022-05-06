@@ -32,6 +32,12 @@ body {
   border: 1px solid;
 }
 
+.btns {
+  display: flex;
+  justify-content: space-between;
+  width: 40px;
+}
+
 .orangeBtn {
   display: flex;
   justify-content: space-evenly;

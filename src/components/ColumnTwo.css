@@ -1,19 +1,23 @@
-.rectangleFour {
+.main {
     margin-left: 1.5%;
     background-color: #F5F6FC;
     display: flex;
     flex-direction: column;
-    /* flex-basis: 55%; */
+    position: relative;
     width: 562px;
     height: 768 px;
-    border: 2px solid red;
+    font-size: 12px;
+    color: #343951;
 }
 
 .search {
     display: flex;
+    position: absolute;
+    top: 32px;
     margin-left: 16px;
     width: 527px;
     height: 29px;
+    border-radius: 5px;
     align-items: center;
     background-color: #FFFFFF;
 }
@@ -30,28 +34,95 @@
     color: #BCBECA;
     border: none;
     background-color: #FFFFFF;
+    margin-left: 5px;
 }
 
-.cardHeader .viewAll {
-    font-size: 12px;
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 159px;
+    height: 133px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
 }
 
 .detail {
     font-size: 8px;
+    color: #858A9D;
 }
 
-.rectangleFive {
-    background-color: #F5F6FC;
-    border: 2px solid red;
+.fileCard {
+    width: 528px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.files {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 213px;
+}
+
+.fileTxt {
+    color: #858A9D;
+}
+
+.colorCode {
+    height: 21px;
+    width: 21px;
+    border-radius: 5px;
+    background-color: #FF9F00;
+}
+
+.section {
+    position: absolute;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+}
+
+.sectionHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.recentlyUsed {
+    top: 79px;
+}
+
 .recentlyUsedProjects {
     display: flex;
+    justify-content: space-between;
+    width: 504px;
+}
+
+.recentFiles {
+    top: 296px;
+}
+
+.shareWithMe { 
+    top: 619px;
+}
+
+.shareCard {
+    display: flex;
+    flex-direction: column;
+    width: 157px;
+    height: 79px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
 }
 
 .shareWithMeFiles {
     display: flex;
+    justify-content: space-between;
+    width: 497px;
 }

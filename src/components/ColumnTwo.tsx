@@ -3,13 +3,13 @@ import './ColumnTwo.css';
 
 function ColumnTwo() {
     return (
-        <div className='rectangleFour'>
+        <div className='main'>
             <div className='search'>
             <input type='button' className='searchBtn btn' />
                 <input type='input' id='search' name='search' placeholder= 'Search' className='searchInput' />
             </div>
-            <div className='recentlyUsed'>
-                <div className='rectangleFive recentlyUsedHeader'>
+            <div className='recentlyUsed section'>
+                <div className='sectionHeader'>
                     <p className='headerTitle'>Recently Used</p>
                     <div className='btns'>
                         <input type='button' className='btn' />
@@ -17,50 +17,77 @@ function ColumnTwo() {
                     </div>
                 </div>
                 <div className='recentlyUsedProjects'>
-                    <div className='card rectangleFive'>
+                    <div className='card'>
                         <p className='cardHeader'>App Project</p>
-                        <p className='detail'>Created</p>
+                        <p className='detail'>Created:</p>
                     </div>
-                    <div className='card rectangleFive'> 
+                    <div className='card'> 
                         <p className='cardHeader'>Project: fitbit</p>
-                        <p className='detail'>Created</p>
+                        <p className='detail'>Created:</p>
                     </div>
-                    <div className='card rectangleFive'>
+                    <div className='card'>
                         <p className='cardHeader'>Client Documents</p>
-                        <p className='detail'>Created</p>
+                        <p className='detail'>Created:</p>
                     </div>
                 </div>
             </div>   
-            <div className='recentFiles'>
-                <div className='rectangleFive recentFilesHeader'>
+            <div className='recentFiles section'>
+                <div className='sectionHeader'>
                     <p className='headerTitle'>Recent Files</p>
-                    <p className='viewAll'>View All</p>
+                    <p>View All</p>
                 </div>
                 <div className='recentFilesPreview'>
-                    <div>Name Members Last Modified</div>
-                    <div className='rectangleFive card'>
-                        <p className='cardHeader'>Travel Landing Page</p>
-                    </div>
-                    <div className='rectangleFive card'>
-                        <p className='cardHeader'>True Photos</p>
-                    </div>
-                    <div className='rectangleFive card'>
-                        <p className='cardHeader'>Dashboard Structure</p>
-                    </div>
-                    <div className='rectangleFive card'>
-                        <p className='cardHeader'>Character Illustration</p>
+                    <div className='fileTxt'>Name Members Last Modified</div>
+                    <div className='files'>
+                        <div className='fileCard'>
+                            <div className='colorCode'></div>
+                            <p className='title'>Travel Landing Page</p>
+                            <p className='fileTxt'>members</p>
+                            <p className='fileTxt'>date</p>
+                            <div>...</div>
+                        </div>
+                        <div className='fileCard'>
+                            <div className='colorCode'></div>
+                            <p className='title'>True Photos</p>
+                            <p className='fileTxt'>members</p>
+                            <p className='fileTxt'>date</p>
+                            <div>...</div>
+                        </div>
+                        <div className='fileCard'>
+                            <div className='colorCode'></div>
+                            <p className='title'>Dashboard Structure</p>
+                            <p className='fileTxt'>members</p>
+                            <p className='fileTxt'>date</p>
+                            <div>...</div>
+                        </div>
+                        <div className='fileCard'>
+                            <div className='colorCode'></div>
+                            <p className='title'>Character Illustration</p>
+                            <p className='fileTxt'>members</p>
+                            <p className='fileTxt'>date</p>
+                            <div>...</div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className='shareWithMe'>
-                <div className='rectangleFive shareWithMeHeader'>
+            <div className='shareWithMe section'>
+                <div className='sectionHeader'>
                     <p className='headerTitle'>Share with me</p>
-                    <p className='viewAll'>View All</p>
+                    <p>View All</p>
                 </div>
-                <div className='rectangleFive shareWithMeFiles'>
-                    <div className='rectangleFive cardHeader'>Landing Page</div>
-                    <div className='rectangleFive cardHeader'>Illustration Pack</div>
-                    <div className='rectangleFive cardHeader'>CV Design</div>
+                <div className='shareWithMeFiles'>
+                    <div className='shareCard'>
+                        <p>Landing Page</p>
+                        <p className='detail'>Created:</p>
+                    </div>
+                    <div className='shareCard'>
+                        <p>Illustration Pack</p>
+                        <p className='detail'>Created:</p>
+                    </div>
+                    <div className='shareCard'>
+                        <p>CV Design</p>
+                        <p className='detail'>Created:</p>
+                    </div>
                 </div>
             </div>
         </div>
