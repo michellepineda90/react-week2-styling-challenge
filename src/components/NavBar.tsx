@@ -72,7 +72,7 @@ function NavBar() {
             </div>
             <div className='createNewSection'>
                 <div className='orangeBtn'>
-                    <p>Create New</p>
+                    <p className='btnTxt'>Create New</p>
                     <button className='plus'>+</button>
                 </div>
             </div>

@@ -12,21 +12,33 @@ function ColumnTwo() {
                 <div className='sectionHeader'>
                     <p className='headerTitle'>Recently Used</p>
                     <div className='btns'>
-                        <input type='button' className='btn' />
+                        <input type='button' className='btn isActive' />
                         <input type='button' className='btn' />
                     </div>
                 </div>
                 <div className='recentlyUsedProjects'>
                     <div className='card'>
+                        <div className='orangeSquare'></div>
+                        <div className='lghtorangeSquare'></div>
+                        <div>circle</div>
                         <p className='cardHeader'>App Project</p>
+                        <p className='cardHeader'>...</p>
                         <p className='detail'>Created:</p>
                     </div>
                     <div className='card'> 
+                        <div className='orangeSquare'></div>
+                        <div className='lghtorangeSquare'></div>
+                        <div>circle</div>
                         <p className='cardHeader'>Project: fitbit</p>
+                        <p className='cardHeader'>...</p>
                         <p className='detail'>Created:</p>
                     </div>
                     <div className='card'>
+                        <div className='orangeSquare'></div>
+                        <div className='lghtorangeSquare'></div>
+                        <div>circle</div>
                         <p className='cardHeader'>Client Documents</p>
+                        <p className='cardHeader'>...</p>
                         <p className='detail'>Created:</p>
                     </div>
                 </div>
@@ -77,14 +89,22 @@ function ColumnTwo() {
                 </div>
                 <div className='shareWithMeFiles'>
                     <div className='shareCard'>
+                        <div className='orangeSquare'></div>
+                        <div className='lghtorangeSquare'></div>
+                        <div>circle</div>
                         <p>Landing Page</p>
                         <p className='detail'>Created:</p>
                     </div>
                     <div className='shareCard'>
+                        <div className='orangeSquare'></div>
+                        <div className='lghtorangeSquare'></div>
+                        <div>circle</div>
                         <p>Illustration Pack</p>
                         <p className='detail'>Created:</p>
                     </div>
                     <div className='shareCard'>
+                        <div className='orangeSquare'></div>
+                        <div className='lghtorangeSquare'></div>
                         <p>CV Design</p>
                         <p className='detail'>Created:</p>
                     </div>

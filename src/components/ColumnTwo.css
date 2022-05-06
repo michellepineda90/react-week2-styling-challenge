@@ -46,6 +46,18 @@
     background-color: #FFFFFF;
 }
 
+.orangeSquare {
+    width: 30px;
+    height: 26px;
+    background-color: #FF9F00;
+}
+
+.lghtorangeSquare {
+    width: 30px;
+    height: 26px;
+    background-color: #FFD999;
+}
+
 .detail {
     font-size: 8px;
     color: #858A9D;
@@ -96,6 +108,10 @@
 
 .recentlyUsed {
     top: 79px;
+}
+
+.isActive {
+    border-color: #343951;
 }
 
 .recentlyUsedProjects {

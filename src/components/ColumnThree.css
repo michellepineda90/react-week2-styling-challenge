@@ -1,12 +1,10 @@
-/* width: 252px
-height: 768 px */
 .rectangleSix {
     margin-left: 1.5%;
     background-color: #F5F6FC;
     display: flex;
     flex-direction: column;
-    flex-basis: 25%;
-    border: 2px solid red;
+    width: 252px;
+    height: 768px;
 }
 
 .profilePic {
