@@ -41,7 +41,7 @@ html {
 }
 
 .regularTxt {
-  font-size: 12px;
+  font-size: var(--medium-font);
   color: var(--black-text);
 }
 
@@ -65,9 +65,9 @@ html {
 .orangeBtn {
   display: flex;
   align-items: center;
-  background-color: #FF9F00;
+  background-color: var(--orange);
   color: var(--white);
-  font-size: 10px;
+  font-size: var(--small-font);
   width: 116px;
   height: 30px;
   border: none;

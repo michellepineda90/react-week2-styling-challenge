@@ -71,10 +71,10 @@ function NavBar() {
                 <div className='arrowDown'/></div>
             </div>
             <div className='createNewSection'>
-                <div className='orangeBtn'>
-                    <p className='btnTxt'>Create New</p>
-                    <button className='plus'>+</button>
-                </div>
+                    <div className='orangeBtn'>
+                        <p className='btnTxt'>Create New</p>
+                        <a href="" className='plus'>+</a>
+                    </div>
             </div>
         </div>
     );

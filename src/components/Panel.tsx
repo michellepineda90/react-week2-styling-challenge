@@ -74,7 +74,7 @@ function Panel() {
                     <p className='regularTxt'>Buy more space now!</p>
                     <p className='detailFont premium'>Upgrade to cloud premium</p>
                 </div>
-                <div className='orangeBtn'>Upgrade Account!</div>
+                <a href="" className='orangeBtn'>Upgrade Account!</a>
             </div>
         </div>
     );

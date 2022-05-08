@@ -1,6 +1,6 @@
 import './Main.css';
-import verticalEllipsis from '../assets/verticalEllipsis.svg';
-import horizontalEllipsis from '../assets/horizontalEllipsis.svg';
+// import verticalEllipsis from '../assets/verticalEllipsis.svg';
+// import horizontalEllipsis from '../assets/horizontalEllipsis.svg';
 
 function Main() {
     return (
@@ -22,11 +22,17 @@ function Main() {
                 <div className='recentlyUsedProjects'>
                     <div className='card'>
                         <div className='cardIcons'>
-                            <div className='square bottom'></div>
-                            <div className='square superposed'></div>
+                            <div className='cube'>
+                                <div className='square bottom'></div>
+                                <div className='square superposed'></div>
+                            </div>
                             <div className='circle'></div>
                             <div className='circle'></div>
-                            <img src={verticalEllipsis} alt='vertical ellipsis' />
+                            <div className='ellipsis vertical'>
+                                <div className='dot'></div>
+                                <div className='dot'></div>
+                                <div className='dot'></div>
+                            </div>
                         </div>
                         <div className='cardDetails'>
                             <p className='regularTxt noMargin'>App Project</p>
@@ -35,11 +41,17 @@ function Main() {
                     </div>
                     <div className='card'> 
                         <div className='cardIcons'>
-                            <div className='square bottom'></div>
-                            <div className='square superposed'></div>
+                            <div className='cube'>
+                                <div className='square bottom'></div>
+                                <div className='square superposed'></div>
+                            </div>
                             <div className='circle'></div>
                             <div className='circle'></div>
-                            <img src={verticalEllipsis} alt='vertical ellipsis' />
+                            <div className='ellipsis vertical'>
+                                <div className='dot'></div>
+                                <div className='dot'></div>
+                                <div className='dot'></div>
+                            </div>
                         </div>
                         <div className='cardDetails'>
                             <p className='regularTxt noMargin'>Project: fitbit</p>
@@ -48,12 +60,18 @@ function Main() {
                     </div>
                     <div className='card'>
                         <div className='cardIcons'>
-                            <div className='square bottom'></div>
-                            <div className='square superposed'></div>
+                            <div className='cube'>
+                                <div className='square bottom'></div>
+                                <div className='square superposed'></div>
+                            </div>
                             <div className='circle'></div>
                             <div className='circle'></div>
                             <div className='circle'></div>
-                            <img src={verticalEllipsis} alt='vertical ellipsis' />
+                            <div className='ellipsis vertical'>
+                                <div className='dot'></div>
+                                <div className='dot'></div>
+                                <div className='dot'></div>
+                            </div>
                         </div>
                         <div className='cardDetails'>
                             <p className='regularTxt noMargin'>Client Documents</p>
@@ -80,28 +98,44 @@ function Main() {
                             <p className='title'>Travel Landing Page</p>
                             <p className='members txtColor'>members</p>
                             <p className='fileTxt txtColor'>date</p>
-                            <img src={horizontalEllipsis} alt='horizontal ellipsis' className='hzEllipsis' />
+                            <div className='ellipsis horizontal'>
+                                <div className='dot'></div>
+                                <div className='dot'></div>
+                                <div className='dot'></div>
+                            </div>
                         </div>
                         <div className='fileCard'>
                             <div className='smallSquare aqua'></div>
                             <p className='title'>True Photos</p>
                             <p className='members txtColor'>members</p>
                             <p className='fileTxt txtColor'>date</p>
-                            <img src={horizontalEllipsis} alt='horizontal ellipsis' className='hzEllipsis' />
+                            <div className='ellipsis horizontal'>
+                                <div className='dot'></div>
+                                <div className='dot'></div>
+                                <div className='dot'></div>
+                            </div>
                         </div>
                         <div className='fileCard'>
                             <div className='smallSquare magenta'></div>
                             <p className='title'>Dashboard Structure</p>
                             <p className='members txtColor'>members</p>
                             <p className='fileTxt txtColor'>date</p>
-                            <img src={horizontalEllipsis} alt='horizontal ellipsis' className='hzEllipsis' />
+                            <div className='ellipsis horizontal'>
+                                <div className='dot'></div>
+                                <div className='dot'></div>
+                                <div className='dot'></div>
+                            </div>
                         </div>
                         <div className='fileCard'>
                             <div className='smallSquare orange'></div>
                             <p className='title'>Character Illustration</p>
                             <p className='members txtColor'>members</p>
                             <p className='fileTxt txtColor'>date</p>
-                            <img src={horizontalEllipsis} alt='horizontal ellipsis' className='hzEllipsis' />
+                            <div className='ellipsis horizontal'>
+                                <div className='dot'></div>
+                                <div className='dot'></div>
+                                <div className='dot'></div>
+                            </div>
                         </div>
                     </div>
                 </div>

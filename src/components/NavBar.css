@@ -98,7 +98,21 @@
     color: #FFFFFF;
     position: absolute;
     left: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
 
 .pointer {
     background-color: #343951;
