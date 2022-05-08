@@ -69,6 +69,7 @@
     height: 133px;
     border-radius: 12px;
     background-color: #FFFFFF;
+    position: relative;
 }
 
 .cardIcons {
@@ -87,16 +88,22 @@
 .square {
     width: 30px;
     height: 26px;
-    position: absolute;
 }
 
 .bottom {
+    position: absolute;
+    left: 10px;
+    top: 25px;
     z-index: 1;
+    background-color: var(--light-orange);
 }
 
 .superposed {
     position: absolute;
+    left: 15px;
+    top: 20px;
     z-index: 2;
+    background-color: var(--orange);
 }
 
 .rcntFiles {
@@ -144,6 +151,8 @@
 
 .title {
     padding-left: 10px;
+    font-size: var(--medium-font);
+    color: var(--black-text);
 }
 
 .txtColor {
@@ -181,6 +190,12 @@
     top: 599px;
 }
 
+.share {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
 .shareCard {
     display: flex;
     flex-direction: column;
@@ -188,10 +203,15 @@
     height: 79px;
     background-color: #FFFFFF;
     border-radius: 12px;
+    position: relative;
 }
 
 .shareWithMeFiles {
     display: flex;
     justify-content: space-between;
     width: 497px;
+}
+
+.noMargin {
+    margin: 0;
 }

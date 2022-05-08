@@ -16,7 +16,12 @@ html {
   --header-font: 20px;
   --black-text: #343951;
   --gray-text: #858A9D;
+  --line-color: #E0E7F1;
+  --light-gray: #C4C4C4;
+  --background-gray: #F5F6FC;
   --white:#FFFFFF;
+  --orange: #FF9F00;
+  --light-orange: #FFD999;
 }
 
 .App {
@@ -32,6 +37,17 @@ html {
 
 .headerTitle {
   font-size: var(--header-font);
+  color: var(--black-text);
+}
+
+.regularTxt {
+  font-size: 12px;
+  color: var(--black-text);
+}
+
+.detailFont {
+  font-size: var(--detail-font);
+  color: var(--gray-text);
 }
 
 .btn {
@@ -66,11 +82,6 @@ html {
   background-color: var(--white);
 }
 
-.detailFont {
-  font-size: var(--detail-font);
-  color: var(--gray-text);
-}
-
 .orange {
   background-color: #FF9F00;
 }
@@ -93,9 +104,4 @@ html {
 
 .gray {
   background-color: #BCBECA;
-}
-
-.regularTxt {
-  font-size: 12px;
-  color: #343951;
 }
