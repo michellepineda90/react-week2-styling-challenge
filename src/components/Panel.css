@@ -1,0 +1,89 @@
+.rectangleSix {
+    margin-left: 22px;
+    background-color: #F5F6FC;
+    display: flex;
+    flex-direction: column;
+    width: 252px;
+    height: 768px;
+}
+
+.profilePic {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
+
+.nameSection {
+    display: flex;
+    align-items: center;
+}
+
+.lineTwo {
+    border: 0.5px solid #E0E7F1;
+    width: 252px;
+    position: absolute;
+    top: 79px;
+    margin: 0;
+}
+
+.storageSection {
+    position: absolute;
+    top: 79px;
+}
+
+.chart {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+}
+
+.storageDetail {
+    display: flex;
+}
+
+.smallFont {
+    font-size: var(--small-font);
+}
+
+.gbDetail {
+    width: 54px;
+    height: 21px;
+    border-radius: 4px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+.dark {
+    color: var(--black-text);
+}
+
+.colorGradientTwo {
+    background: linear-gradient(90deg, rgba(255,159,0,1) 19%, rgba(255,104,96,1) 35%, rgba(104,158,248,1) 100%);
+    border-radius: 5px;
+    width: 119px;
+    height: 73px;
+}
+
+.panel {
+    border-color: #C4C4C4;
+    background-color: #C4C4C4;
+}
+
+.medSquare {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+}
+
+.buyMoreSpaceSection {
+    display: flex;
+    flex-direction: column;
+    width: 194px;
+    height: 202px;
+    border-radius: 18px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+}

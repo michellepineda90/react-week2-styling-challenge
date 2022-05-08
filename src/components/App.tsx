@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import NavBar from './NavBar';
 import Main from './Main';
-import ColumnThree from './ColumnThree';
+import Panel from './Panel';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Main />
-      <ColumnThree />
+      <Panel />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

@@ -6,8 +6,6 @@
     position: relative;
     width: 562px;
     height: 768px;
-    font-size: 12px;
-    color: #343951;
 }
 
 .search {
@@ -86,28 +84,19 @@
     padding-left: 10px;
 }
 
-.orangeSquare {
+.square {
     width: 30px;
     height: 26px;
-    background-color: #FF9F00;
+    position: absolute;
+}
+
+.bottom {
+    z-index: 1;
 }
 
 .superposed {
     position: absolute;
     z-index: 2;
-}
-
-.lghtorangeSquare {
-    width: 30px;
-    height: 26px;
-    background-color: #FFD999;
-    position: absolute;
-    z-index: 1;
-}
-
-.detail {
-    font-size: 8px;
-    color: #858A9D;
 }
 
 .rcntFiles {
@@ -158,7 +147,8 @@
 }
 
 .txtColor {
-    color: #858A9D;
+    font-size: var(--medium-font);
+    color: var(--gray-text)
 }
 
 .members {
@@ -180,18 +170,6 @@
     height: 21px;
     width: 21px;
     border-radius: 5px;
-}
-
-.orange {
-    background-color: #FF9F00;
-}
-
-.aqua {
-    background-color: #4AC29D;
-}
-
-.magenta {
-    background-color: #FF6860;
 }
 
 .isActive {

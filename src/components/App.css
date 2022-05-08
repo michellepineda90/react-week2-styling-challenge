@@ -7,19 +7,31 @@ html {
   box-sizing: inherit;
 }
 
+/* Variables */
+:root { 
+  --font: 'Roboto', sans-serif;
+  --detail-font: 8px;
+  --small-font: 10px;
+  --medium-font: 12px;
+  --header-font: 20px;
+  --black-text: #343951;
+  --gray-text: #858A9D;
+  --white:#FFFFFF;
+}
+
 .App {
-  background-color: #FFFFFF;
+  background-color: var(--white);
   display: flex;
   flex-direction: row;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font);
   position: relative;
   width: 1027px;
   height: 768px;
 }
 
 .headerTitle {
-  font-size: 20px;
+  font-size: var(--header-font);
 }
 
 .btn {
@@ -38,7 +50,7 @@ html {
   display: flex;
   align-items: center;
   background-color: #FF9F00;
-  color: #FFFFFF;
+  color: var(--white);
   font-size: 10px;
   width: 116px;
   height: 30px;
@@ -51,5 +63,39 @@ html {
   height: 18px;
   border: 1px solid #BEC0C8;
   border-radius: 50%;
-  background-color: #FFFFFF;
+  background-color: var(--white);
+}
+
+.detailFont {
+  font-size: var(--detail-font);
+  color: var(--gray-text);
+}
+
+.orange {
+  background-color: #FF9F00;
+}
+
+.aqua {
+  background-color: #4AC29D;
+}
+
+.magenta {
+  background-color: #FF6860;
+}
+
+.lightOrange {
+  background-color: #FFD999;
+}
+
+.blue {
+  background-color: #689FF8;
+}
+
+.gray {
+  background-color: #BCBECA;
+}
+
+.regularTxt {
+  font-size: 12px;
+  color: #343951;
 }
