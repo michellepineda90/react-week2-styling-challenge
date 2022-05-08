@@ -1,6 +1,6 @@
 .main {
     margin-left: 22px;
-    background-color: #F5F6FC;
+    background-color: var(--background-gray);
     display: flex;
     flex-direction: column;
     position: relative;
@@ -21,15 +21,15 @@
 }
 
 .searchBtn {
-    border-color: #BCBECA;
+    border-color: var(--off-gray);
     background-color: var(--white);
     margin-left: 12px;
 }
 
 .searchInput {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font);
     font-size: 10px;
-    color: #BCBECA;
+    color: var(--off-gray);
     border: none;
     background-color: var(--white);
     margin-left: 5px;
@@ -88,12 +88,8 @@
 .cardDetails {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding-left: 10px;
-}
-
-.detailFont {
-    margin-top: 1px;
+    padding-bottom: 10px;
 }
 
 .square {
@@ -117,6 +113,35 @@
     background-color: var(--orange);
 }
 
+.withText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floor {
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+}
+
+.middle {
+    position: absolute;
+    z-index: 2;
+    left: 82px;
+}
+
+.ceil {
+    position: absolute;
+    z-index: 3;
+    left: 94px;
+}
+
+.plusFiles {
+    font-size: var(--detail-font);
+    color: var(--black-text);    
+}
+
 .ellipsis {
     height: 13px;
     display: flex;
@@ -129,6 +154,12 @@
   width: 3px;
   border-radius: 50%;
   background-color: var(--light-gray);
+}
+
+.vertical {
+    position: absolute;
+    top: 15px;
+    right: 16px;
 }
 
 .rcntFiles {
@@ -208,7 +239,7 @@
 }
 
 .isActive {
-    border-color: #343951;
+    border-color: var(--black-text);
 }
 
 .shareWithMe {
@@ -241,4 +272,40 @@
 
 .noMargin {
     margin: 0;
+}
+
+.aquaBorder {
+    border: 1px solid var(--aqua);
+}
+
+.magentaBorder {
+    border: 1px solid var(--magenta);
+}
+
+.orangeBorder {
+    border: 1px solid var(--orange);
+}
+
+.circles {
+    display: flex;
+}
+
+.one {
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+}
+
+.two {
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: 90px;
+}
+
+.three {
+    position: absolute;
+    z-index: 3;
+    top: 15px;
+    left: 102px;
 }

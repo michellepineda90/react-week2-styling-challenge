@@ -26,8 +26,10 @@ function Main() {
                                 <div className='square bottom'></div>
                                 <div className='square superposed'></div>
                             </div>
-                            <div className='circle'></div>
-                            <div className='circle'></div>
+                            <div className='circles'>
+                                <div className='circle floor'></div>
+                                <div className='circle middle'></div>
+                            </div>
                             <div className='ellipsis vertical'>
                                 <div className='dot'></div>
                                 <div className='dot'></div>
@@ -45,8 +47,10 @@ function Main() {
                                 <div className='square bottom'></div>
                                 <div className='square superposed'></div>
                             </div>
-                            <div className='circle'></div>
-                            <div className='circle'></div>
+                            <div className='circles'>
+                                <div className='circle floor'></div>
+                                <div className='circle middle'></div>
+                            </div>
                             <div className='ellipsis vertical'>
                                 <div className='dot'></div>
                                 <div className='dot'></div>
@@ -64,9 +68,13 @@ function Main() {
                                 <div className='square bottom'></div>
                                 <div className='square superposed'></div>
                             </div>
-                            <div className='circle'></div>
-                            <div className='circle'></div>
-                            <div className='circle'></div>
+                            <div className='circles'>
+                                <div className='circle floor'></div>
+                                <div className='circle middle'></div>
+                                <div className='circle withText ceil'>
+                                    <p className='plusFiles'>+3</p>
+                                </div>
+                            </div>
                             <div className='ellipsis vertical'>
                                 <div className='dot'></div>
                                 <div className='dot'></div>
@@ -150,35 +158,41 @@ function Main() {
                     <div className='shareCard'>
                         <div className='cardIcons'>
                             <div className='square orange share'></div>
-                            <div className='circle'></div>
-                            <div className='circle'></div>
+                            <div className='circles'>
+                                <div className='circle aquaBorder one'></div>
+                                <div className='circle magentaBorder two'></div>
+                            </div>
                         </div>
                         <div className='cardDetails'>
                             <p className='regularTxt noMargin'>Landing Page</p>
-                            <p className='detailFont'>Created:</p>
+                            <p className='detailFont noMargin'>Created:</p>
                         </div>
                     </div>
                     <div className='shareCard'>
                         <div className='cardIcons'>
                             <div className='square orange share'></div>
-                            <div className='circle'></div>
-                            <div className='circle'></div>
-                            <div className='circle'></div>
+                            <div className='circles'>
+                                <div className='circle aquaBorder one'></div>
+                                <div className='circle magentaBorder two'></div>
+                                <div className='circle orangeBorder three'></div>
+                            </div>
                         </div>
                         <div className='cardDetails'>
                             <p className='regularTxt noMargin'>Illustration Pack</p>
-                            <p className='detailFont'>Created:</p>
+                            <p className='detailFont noMargin'>Created:</p>
                         </div>
                     </div>
                     <div className='shareCard'>
                         <div className='cardIcons'>
-                            <div className='square orange share'></div>
-                            <div className='circle'></div>
-                            <div className='circle'></div>
+                            <div className='circles'>
+                                <div className='square orange share one'></div>
+                                <div className='circle aquaBorder two'></div>
+                                <div className='circle orangeBorder three'></div>
+                            </div>
                         </div>
                         <div className='cardDetails'>
                             <p className='regularTxt noMargin'>CV Design</p>
-                            <p className='detailFont'>Created:</p>
+                            <p className='detailFont noMargin'>Created:</p>
                         </div>
                     </div>
                 </div>

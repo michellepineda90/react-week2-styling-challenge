@@ -19,9 +19,15 @@ html {
   --line-color: #E0E7F1;
   --light-gray: #C4C4C4;
   --background-gray: #F5F6FC;
+  --profile-pic-gray: #BEC0C8;
+  --button-gray: #9D9FAF;
+  --off-gray: #BCBECA;
   --white:#FFFFFF;
   --orange: #FF9F00;
   --light-orange: #FFD999;
+  --aqua: #4AC29D;
+  --magenta: #FF6860;
+  --blue: #689FF8;
 }
 
 .App {
@@ -53,7 +59,7 @@ html {
 .btn {
   height: 15px;
   width: 15px;
-  border: 1px solid #9D9FAF;
+  border: 1px solid var(--button-gray);
 }
 
 .btns {
@@ -77,31 +83,31 @@ html {
 .circle {
   width: 18px;
   height: 18px;
-  border: 1px solid #BEC0C8;
+  border: 1px solid var(--profile-pic-gray);
   border-radius: 50%;
   background-color: var(--white);
 }
 
 .orange {
-  background-color: #FF9F00;
+  background-color: var(--orange);
 }
 
 .aqua {
-  background-color: #4AC29D;
+  background-color: var(--aqua);
 }
 
 .magenta {
-  background-color: #FF6860;
+  background-color: var(--magenta);
 }
 
 .lightOrange {
-  background-color: #FFD999;
+  background-color: var(--light-orange);
 }
 
 .blue {
-  background-color: #689FF8;
+  background-color: var(--blue);
 }
 
 .gray {
-  background-color: #BCBECA;
+  background-color: var(--off-gray);
 }
