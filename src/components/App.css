@@ -13,7 +13,9 @@ html {
   --detail-font: 8px;
   --small-font: 10px;
   --medium-font: 12px;
+  --subheader-font: 14px;
   --header-font: 20px;
+  --percentage-font: 24px;
   --black-text: #343951;
   --gray-text: #858A9D;
   --line-color: #E0E7F1;

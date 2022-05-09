@@ -46,7 +46,6 @@
 }
 
 .chartSection {
-    /* position: absolute; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,11 +54,9 @@
 }
 
 .chart {
-    /* position: absolute;
-    left: 35px; */
-    width: 120px;
-    height: 120px;
-    background-color: white;
+    width: 140px;
+    height: 140px;
+    background-color: var(--background-gray);
 }
 
 .storage {
@@ -70,6 +67,32 @@
 .storageDetail {
     display: flex;
     margin-top: 10px;
+}
+
+.percentageSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background-color: var(--white);
+    position: absolute;
+    top: 86px;
+    left: 47px;
+}
+
+.percentageFont {
+    font-size: var(--percentage-font);
+    color: var(--black-text);
+    margin: 0;
+    padding-top: 30px;
+}
+
+.subHeader {
+    font-size: var(--subheader-font);
+    color: var(--gray-text);
+    margin: 0;
 }
 
 .smallFont {
