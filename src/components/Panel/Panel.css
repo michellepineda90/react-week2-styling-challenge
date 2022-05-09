@@ -1,0 +1,164 @@
+.panel {
+    margin-left: 22px;
+    background-color: var(--background-gray);
+    display: flex;
+    flex-direction: column;
+    width: 252px;
+    height: 768px;
+    position: relative;
+}
+
+.profilePic {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: var(--light-gray);
+    margin-left: 5px;
+}
+
+.nameSection {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 33px;
+    top: 33px;  
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 130px;
+}
+
+.lineTwo {
+    border: 0.5px solid var(--line-color);
+    width: 252px;
+    position: absolute;
+    top: 79px;
+    margin: 0;
+}
+
+.storageSection {
+    position: absolute;
+    top: 79px;
+    left: 33px;
+}
+
+.chartSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+}
+
+.chart {
+    width: 140px;
+    height: 140px;
+    background-color: var(--background-gray);
+}
+
+.storage {
+    position: absolute;
+    top: 230px;
+}
+
+.storageDetail {
+    display: flex;
+    margin-top: 10px;
+}
+
+.percentageSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background-color: var(--white);
+    position: absolute;
+    top: 86px;
+    left: 47px;
+}
+
+.percentageFont {
+    font-size: var(--percentage-font);
+    color: var(--black-text);
+    margin: 0;
+    padding-top: 30px;
+}
+
+.subHeader {
+    font-size: var(--subheader-font);
+    color: var(--gray-text);
+    margin: 0;
+}
+
+.smallFont {
+    font-size: var(--small-font);
+    margin: 0;
+}
+
+.dark {
+    color: var(--black-text);
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.file {
+    margin-top: 5px;
+}
+
+.gbDetail {
+    margin-left: 50px;
+    width: 54px;
+    height: 21px;
+    border-radius: 4px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lineThree {
+    width: 195px;
+    border: 0.5px solid var(--line-color);
+    margin: 0;
+}
+
+.gradientTwo {
+    width: 119px;
+    height: 73px;
+}
+
+.btnPanel {
+    border-color: var(--light-gray);
+    background-color: var(--light-gray);
+}
+
+.medSquare {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+}
+
+.buyMoreSpaceSection {
+    display: flex;
+    flex-direction: column;
+    width: 194px;
+    height: 202px;
+    border-radius: 18px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    position: absolute;
+    top: 546px;
+    left: 33px;
+}
+
+.premium {
+    margin: 15px 5px;
+}

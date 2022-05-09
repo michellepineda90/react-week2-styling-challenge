@@ -1,0 +1,312 @@
+.main {
+    margin-left: 22px;
+    background-color: var(--background-gray);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 562px;
+    height: 768px;
+}
+
+.search {
+    display: flex;
+    position: absolute;
+    top: 32px;
+    margin-left: 16px;
+    width: 527px;
+    height: 29px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.searchBtn {
+    border-color: var(--off-gray);
+    background-color: var(--white);
+    margin-left: 12px;
+}
+
+.searchInput {
+    font-family: var(--font);
+    font-size: 10px;
+    color: var(--off-gray);
+    border: none;
+    background-color: var(--white);
+    margin-left: 5px;
+}
+
+.section {
+    position: absolute;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+}
+
+.recentlyUsed {
+    position: absolute;
+    top: 79px;
+}
+
+.sectionHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recentlyUsedProjects {
+    display: flex;
+    justify-content: space-between;
+    width: 504px;
+    position: absolute;
+    top: 69px;
+    left: 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 159px;
+    height: 133px;
+    border-radius: 12px;
+    background-color: var(--white);
+    position: relative;
+}
+
+.cardIcons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cube {
+    position: absolute;
+    left: 5px;
+    top: 0px;
+}
+
+.cardDetails {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.square {
+    width: 30px;
+    height: 26px;
+}
+
+.bottom {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    z-index: 1;
+    background-color: var(--light-orange);
+}
+
+.superposed {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    z-index: 2;
+    background-color: var(--orange);
+}
+
+.withText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floor {
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+}
+
+.middle {
+    position: absolute;
+    z-index: 2;
+    left: 82px;
+}
+
+.ceil {
+    position: absolute;
+    z-index: 3;
+    left: 94px;
+}
+
+.plusFiles {
+    font-size: var(--detail-font);
+    color: var(--black-text);    
+}
+
+.ellipsis {
+    height: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dot {
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  background-color: var(--light-gray);
+}
+
+.vertical {
+    position: absolute;
+    top: 15px;
+    right: 16px;
+}
+
+.rcntFiles {
+    position: absolute;
+    top: 296px;
+}
+
+.files {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 213px;
+    position: absolute;
+    top: 91px;
+}
+
+.fileCard {
+    width: 528px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.tableHeader {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 47px;
+    width: 528px;
+}
+
+.membersTitle {
+    position: absolute;
+    left: 261px;
+}
+
+.lastModTitle {
+    position: absolute;
+    left: 387px;
+}
+
+.title {
+    padding-left: 10px;
+    font-size: var(--medium-font);
+    color: var(--black-text);
+}
+
+.txtColor {
+    font-size: var(--medium-font);
+    color: var(--gray-text)
+}
+
+.members {
+    position: absolute;
+    left: 261px;
+}
+
+.fileTxt {
+    position: absolute;
+    left: 387px;
+}
+
+.horizontal {
+    transform: rotate(90deg);
+    position: absolute;
+    left: 503px;
+}
+
+.smallSquare {
+    height: 21px;
+    width: 21px;
+    border-radius: 5px;
+}
+
+.isActive {
+    border-color: var(--black-text);
+}
+
+.shareWithMe {
+    position: absolute; 
+    top: 599px;
+}
+
+.share {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.shareCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 157px;
+    height: 79px;
+    background-color: var(--white);
+    border-radius: 12px;
+    position: relative;
+}
+
+.shareWithMeFiles {
+    display: flex;
+    justify-content: space-between;
+    width: 497px;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.aquaBorder {
+    border: 1px solid var(--aqua);
+}
+
+.magentaBorder {
+    border: 1px solid var(--magenta);
+}
+
+.orangeBorder {
+    border: 1px solid var(--orange);
+}
+
+.circles {
+    display: flex;
+}
+
+.one {
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+}
+
+.two {
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: 90px;
+}
+
+.three {
+    position: absolute;
+    z-index: 3;
+    top: 15px;
+    left: 102px;
+}
