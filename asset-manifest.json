@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.711fe9ea.css",
-    "main.js": "/static/js/main.361fc1b2.js",
-    "static/js/787.e5fdfeb8.chunk.js": "/static/js/787.e5fdfeb8.chunk.js",
-    "index.html": "/index.html",
-    "main.711fe9ea.css.map": "/static/css/main.711fe9ea.css.map",
-    "main.361fc1b2.js.map": "/static/js/main.361fc1b2.js.map",
-    "787.e5fdfeb8.chunk.js.map": "/static/js/787.e5fdfeb8.chunk.js.map"
+    "main.css": "/react-week2-styling-challenge/static/css/main.711fe9ea.css",
+    "main.js": "/react-week2-styling-challenge/static/js/main.fe47d34d.js",
+    "static/js/787.e5fdfeb8.chunk.js": "/react-week2-styling-challenge/static/js/787.e5fdfeb8.chunk.js",
+    "index.html": "/react-week2-styling-challenge/index.html",
+    "main.711fe9ea.css.map": "/react-week2-styling-challenge/static/css/main.711fe9ea.css.map",
+    "main.fe47d34d.js.map": "/react-week2-styling-challenge/static/js/main.fe47d34d.js.map",
+    "787.e5fdfeb8.chunk.js.map": "/react-week2-styling-challenge/static/js/787.e5fdfeb8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.711fe9ea.css",
-    "static/js/main.361fc1b2.js"
+    "static/js/main.fe47d34d.js"
   ]
 }
