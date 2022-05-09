@@ -4,17 +4,15 @@
     position: relative;
     width: 172px;
     height: 768px;
-    background-color: #343951;
-    font-size: 10px;
-    color: #858A9D;
+    background-color: var(--black-text);
+    font-size: var(--small-font);
+    color: var(--gray-text);
 }
 
-.colorGradientOne {
+.gradientOne {
     position: absolute;
     top: 36px;
     left: 32px;
-    background: linear-gradient(90deg, rgba(255,159,0,1) 19%, rgba(255,104,96,1) 35%, rgba(104,158,248,1) 100%);
-    border-radius: 5px;
     width: 74px;
     height: 21px;
 }
@@ -22,10 +20,13 @@
 .sections {
     position: absolute;
     top: 125px;
+    display: flex;
+    flex-direction: column;
 }
 
 .sctn {
     display: flex;
+    flex-direction: column;
 }
 
 .sectionItem {
@@ -35,7 +36,7 @@
 }
 
 .lineOne {
-    border: 0.5px solid #464C61;
+    border: 0.5px solid var(--navbar-gray);
     width: 172px;
 }
 
@@ -52,8 +53,8 @@
     position: absolute;
     top: 173px;
     left: 28px;
-    background-color: #464C61;
-    color: #BEC0C8;
+    background-color: var(--navbar-gray);
+    color: var(--profile-pic-gray);
     padding: 20px 8px;
     border-radius: 9px;
     width: 116px;
@@ -68,7 +69,7 @@
     margin-left: 25%;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 15px solid #464C61;
+    border-top: 15px solid var(--navbar-gray);
 }
 
 .option {
@@ -79,7 +80,7 @@
 
 .createNewSection {
     position: absolute;
-    top: 711px;
+    top: 580px;
     left: 27px;
     display: flex;
     align-items: center;
@@ -94,8 +95,8 @@
     height: 21px;
     border: none;
     border-radius: 4px;
-    background-color: #FFB233;
-    color: #FFFFFF;
+    background-color: var(--plus-orange);
+    color: var(--white);
     position: absolute;
     left: 90px;
     display: flex;
@@ -115,7 +116,7 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
 .pointer {
-    background-color: #343951;
+    background-color: var(--black-text);
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
     width: 7px;
@@ -123,20 +124,20 @@ a:active { text-decoration: none; }
 }
 
 .selected {
-    border-color: #FFFFFF;
-    background-color: #FFFFFF;
+    border-color: var(--white);
+    background-color: var(--white);
 }   
 
 .navBarBtn {
     margin-left: 14.5px;
-    border-color: #858A9D;
-    background-color: #343951;
+    border-color: var(--gray-text);
+    background-color: var(--black-text);
 }
 
 .options {
     margin-left: 7px;
-    border-color: #FFFFFF;
-    background-color: #464C61;
+    border-color: var(--white);
+    background-color: var(--navbar-gray);
 }
 
 .option {
@@ -145,10 +146,10 @@ a:active { text-decoration: none; }
 }
 
 .selectedButton {
-    border: 1px solid #FFFFFF;
-    background-color: #343951;
+    border: 1px solid var(--white);
+    background-color: var(--black-text);
 }
 
 .selectedLabel {
-    color: #FFFFFF;
+    color: var(--white);
 }

@@ -129,9 +129,7 @@
     margin: 0;
 }
 
-.colorGradientTwo {
-    background: linear-gradient(90deg, rgba(255,159,0,1) 19%, rgba(255,104,96,1) 35%, rgba(104,158,248,1) 100%);
-    border-radius: 5px;
+.gradientTwo {
     width: 119px;
     height: 73px;
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import NavBar from './NavBar';
-import Main from './Main';
-import Panel from './Panel';
+import NavBar from './components/NavBar/NavBar';
+import Main from './components/Main/Main';
+import Panel from './components/Panel/Panel';
 
 function App() {
   return (

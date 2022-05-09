@@ -60,6 +60,7 @@
     width: 504px;
     position: absolute;
     top: 69px;
+    left: 0px;
 }
 
 .card {
@@ -81,15 +82,15 @@
 
 .cube {
     position: absolute;
-    left: 10px;
-    top: 2.5px;
+    left: 5px;
+    top: 0px;
 }
 
 .cardDetails {
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .square {

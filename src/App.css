@@ -24,12 +24,15 @@ html {
   --profile-pic-gray: #BEC0C8;
   --button-gray: #9D9FAF;
   --off-gray: #BCBECA;
+  --navbar-gray: #464C61;
   --white:#FFFFFF;
   --orange: #FF9F00;
   --light-orange: #FFD999;
+  --plus-orange: #FFB233;
   --aqua: #4AC29D;
   --magenta: #FF6860;
   --blue: #689FF8;
+  --gradient: linear-gradient(90deg, rgba(255,159,0,1) 19%, rgba(255,104,96,1) 35%, rgba(104,158,248,1) 100%);
 }
 
 .App {
@@ -88,6 +91,11 @@ html {
   border: 1px solid var(--profile-pic-gray);
   border-radius: 50%;
   background-color: var(--white);
+}
+
+.gradient {
+  background: var(--gradient);
+  border-radius: 5px;
 }
 
 .orange {
