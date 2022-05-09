@@ -3,9 +3,10 @@ import '../NavBar/NavBar.css';
 
 interface INavBarSection {
     name: string;
+    state: string;
 }
 
-function NavBarSections({name}: INavBarSection) {
+function NavBarSections({name, state}: INavBarSection) {
 
 //   const [isActive, setIsActive] = useState(false);
 //   const handleClick = event => {
@@ -14,19 +15,27 @@ function NavBarSections({name}: INavBarSection) {
 //   };
 
     function handleClick(event: { currentTarget: { classList: { toggle: (arg0: string) => any; }; }; }) {
-        console.log(event.currentTarget)
         return event.currentTarget.classList.toggle('selectedButton');
     }
 
-    return (
-            <div className='sectionItem'>
-                <div className='pointer selected'></div>
-                <input type='button' className='navBarBtn btn' id={name} name={name} onClick={handleClick}/>
-                <label htmlFor={name} className='label selectedLabel'>{name}</label>
-            </div>
-    )
+    
+    if (state === 'isActive') {
+            return (
+                <div className='sectionItem'>
+                    <div className='pointer selected'></div>
+                    <input type='button' className='navBarBtn btn selectedButton' id={name} name={name} onClick={handleClick}/>
+                    <label htmlFor={name} className='label selectedLabel'>{name}</label>
+                </div>
+        )
+        } else {
+            return (
+                <div className='sectionItem'>
+                    <div className='pointer'></div>
+                    <input type='button' className='navBarBtn btn' id={name} name={name} onClick={handleClick}/>
+                    <label htmlFor={name} className='label'>{name}</label>
+                </div>
+            )
+        }
 }
 
 export default NavBarSections;
-
-// selected selectedButton selectedLabel

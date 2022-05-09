@@ -2,6 +2,7 @@
   "name": "react2-challenge",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://michellepineda90.github.io/react-week2-styling-challenge/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
@@ -15,6 +16,7 @@
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.3",
     "chart.js": "^3.7.1",
+    "gh-pages": "^3.2.3",
     "react": "^18.1.0",
     "react-chartjs-2": "^4.1.0",
     "react-dom": "^18.1.0",
@@ -26,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
